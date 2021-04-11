@@ -1,0 +1,16 @@
+.Projects {
+  text-align: center;
+}
+
+.Container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin: 0 10%;
+}
+
+@media (max-width: 768px) {
+  .Container {
+    margin: 0 4px;
+  }
+}

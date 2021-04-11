@@ -1,0 +1,18 @@
+.Title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 32px 0;
+  color: var(--color-black);
+}
+
+.Line {
+  border: 2px solid var(--color-primary);
+  width: 40px;
+}
+
+@media (max-width: 768px) {
+  .Title h1 {
+    font-size: 28px;
+  }
+}

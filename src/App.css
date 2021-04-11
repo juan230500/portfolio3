@@ -1,0 +1,35 @@
+html,
+body,
+#root,
+.App {
+  height: 100%;
+}
+
+.App {
+  overflow-y: auto;
+}
+
+h1,
+h2,
+p {
+  margin: 0;
+  color: var(--color-black);
+}
+
+h1,
+h2 {
+  font-family: "Playfair Display", serif;
+}
+
+p,
+a {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+:root {
+  --color-black: #343434;
+  --color-white: #f7fff7;
+  --color-primary: #2f3061;
+  --color-secondary: #6ca6c1;
+  --color-accent: #ffe66d;
+}

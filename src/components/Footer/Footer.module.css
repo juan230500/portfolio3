@@ -1,0 +1,14 @@
+.Footer {
+  background-color: var(--color-primary);
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+}
+
+.Footer h2,
+.Footer p {
+  color: var(--color-white);
+}
