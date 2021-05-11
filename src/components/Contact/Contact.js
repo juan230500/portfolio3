@@ -1,7 +1,7 @@
 import Button from "../Button/Button";
 import Title from "../Title/Title";
 import styles from "./Contact.module.css";
-import pdf from "../../assets/cv.pdf";
+import pdf from "../../assets/CV.pdf";
 
 const Contact = (props) => {
   return (
